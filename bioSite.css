@@ -1,3 +1,19 @@
+body{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    background-color: #BDD9F2;
+}
+
+header{
+    background-color: #AEB9F2;
+    text-align: center;
+    
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-color: rgb(197, 24, 223);
+}
+
 h1{
-    color: blue;
+    padding-right: 100px;
+    font-style: italic;
+    font-weight: 400;
 }
