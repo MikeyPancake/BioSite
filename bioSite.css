@@ -1,10 +1,19 @@
-body{
-   
+#biosite_name{
+    font-style: italic;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
 }
 
 header{
+    background-color: #AEB9F2;
+    text-align: center;
+    padding: 5px;
      
 }
+
+body{
+    background-color: #BDD9F2;
+ }
 
 h1{
     
@@ -23,6 +32,14 @@ h4{
 }
 
 #navbar{
+    text-align: center;
+    font-weight: 600;
+    border-color: black;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    padding: 5px;
     
 }
 
@@ -71,7 +88,8 @@ figcaption{
 }
 
 img{
-    
+   width: 300px;
+   height: 300px;
 }
 
 #to-top{
