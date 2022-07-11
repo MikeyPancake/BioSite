@@ -6,7 +6,7 @@
     <title>Bio Site</title>
 
     <!--Font Link to CSS sheet-->
-    <link href="bioSite.css" type="text/css" rel="stylesheet"/>
+    <link href="bioSite.css" type="text/css" rel="stylesheet">
 
     <!--Google Fonts Kit Link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,47 +16,32 @@
 
 <body>
     <header id="header">
-        <h1>Jen Trevino</h1>
+        <h1 class id="biosite_name">Bio Site: Jennifer Trevino</h1>
 
         <nav id="navbar">
             <!--Anchor tags-->
-            <a href="index.html">Home</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="about.html">About</a>
-        </nav>
+            <button onclick="window.location.href='index.html';">
+                Home
+            <button onclick="window.location.href='hobbies.html';">
+                Hobbies
+            <button onclick="window.location.href='about.html';">
+                About Me
     </header>
 
     <div id="container">
         
-        <h1 id="page_title">About Me</h1>
+        <h1 id="page-title">About Me</h1>
 
         <div id="image-gallery">
 
-            <!--Profile Picture with Caption-->
-            <div class="profile-picture">
-
-                <figure>
-                    <img src="BioSite_Pictures/Jen_Port.jpg" alt="Profile_Picture">
-
-                    <figcaption>
-                        <h4>This will be the caption for the picture</h4>
-                    </figcaption>
-                </figure>
-
-            </div>
-
             <!--Picture with Bio-->
-            <div class="about-me-card">
+            <div class="about-item-1">
 
                 <figure>
-                    <img src="BioSite_Pictures/Jen_Boat.jpg" alt="Boat_Picture">
-
-                    <figcaption>
-                        <h4>This will be the caption for the picture</h4>
-                    </figcaption>
+                    <img id="boat-pic" src="BioSite_Pictures/Jen_Boat.jpg" id="boat-pic" alt="Boat_Picture" height="500" width="500">
                 </figure>
 
-                <h2 id="bio">Jennifer Trevino was born in Vero beach, Florida on June 6th, 1986. She was the youngest of three kids and the second girl. 
+                <p id="bio">Jennifer Trevino was born in Vero beach, Florida on June 6th, 1986. She was the youngest of three kids and the second girl. 
                     Shortly after Jennifer was born, she moved to the Northwest Florida where she attended school in Freeport, FL. 
                     After graduating High School, Jennifer enlisted in the Airforce as a Medic. She remained in the Airforce and was stationed at various Airforce bases in 
                     Alaska and Nevada. After leaving the Airforce in 2011, she began attending school to become a registered nurse with the goal of continuing to service in the medical field. 
@@ -70,15 +55,27 @@
                     earned her practice some of the highest accolades possible. Jennifer has almost completed her BA degree and will purse continued education to where she hopes 
                     to earn her master degree in healthcare. When Jennifer is not working, she loves to spend time with her husband, two kids, and two animals where they spend a 
                     lot of time on the beautiful waters of the Emerald Coast. 
-                    </h2>
+                </p>
+            </div>
+
+            <!--Profile Picture with Caption-->
+            <div class="about-item-2">
+
+                <figure>
+                    <img id="profile-picture" src="BioSite_Pictures/Jen_Port.jpg" alt="Profile_Picture" height="500" width="500">
+
+                    <figcaption>
+                        My name is Jennifer Trevino
+                    </figcaption>
+                </figure>
             </div>
         </div>
-
-        <!--To the top of the page-->
-        <p id="to-top"><a href="#header">Top of Page</a></p>
     </div>
 
     <footer>
+        <!--To the top of the page-->
+        <p id="to-top"><a href="#header">Top of Page</a></p>
+
         <a href="https://www.facebook.com/" target="_blank"><img id="facebook" alt="facebook" src="BioSite_Pictures/fb4.png"></a>
         <a href="https://www.instagram.com/" target="_blank"><img id="instagram" alt="instagram" src="BioSite_Pictures/ig3.png"></a>
     </footer>

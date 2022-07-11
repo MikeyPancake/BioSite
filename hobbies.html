@@ -16,14 +16,16 @@
 
 <body>
     <header id="header">
-        <h1>Jen Trevino</h1>
+        <h1 class id="biosite_name">Bio Site: Jennifer Trevino</h1>
 
         <nav id="navbar">
             <!--Anchor tags-->
-            <a href="index.html">Home</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="about.html">About</a>
-        </nav>
+            <button onclick="window.location.href='index.html';">
+                Home
+            <button onclick="window.location.href='hobbies.html';">
+                Hobbies
+            <button onclick="window.location.href='about.html';">
+                About Me
     </header>
 
     <div id="container">
@@ -33,49 +35,67 @@
         <div id="image-gallery">
 
             <!--Hobby 1-->
-            <div class="hobby-card">
+            <div class="grid-item">
 
                 <!--Card Title-->
-                <h2>Hobby 1</h2> 
+                <h2 class="grid-title">Hobby 1: Family Fun Time</h2> 
 
-                <figure><img src="BioSite_Pictures/Jen_Hollo.jpg" alt="Family_Picture"></figure>
-
-                <h3 id="hobby1-description">Description of Hobby 1</h3>
-
+                <figure>
+                    <img src="BioSite_Pictures/Jen_Hollo.jpg" alt="Family_Picture" height="500" width="500">
+                    <figcaption>
+                        Jen loves doing activities with her family like dressing up as super heroes 
+                        and trick-or-treating. Every Holiday, she dresses up the family for the 
+                        Holiday....even if they do not want to! Jen believes in celebrating Holidays
+                        to the best way possible. 
+                    </figcaption>
+                </figure>
             </div>
 
             <!--Hobby 2-->
-            <div class="hobby-card">
+            <div class="grid-item">
 
                 <!--Card Title-->
-                <h2>Hobby 2</h2> 
+                <h2 class="grid-title">Hobby 2: Family Time</h2> 
 
-                <figure><img src="BioSite_Pictures/Jen_Mom_boat.jpg" alt="Family_Picture"></figure>
-
-                <h3 id="hobby2-description">Description of Hobby 2</h3>
-
+                <figure>
+                    <img src="BioSite_Pictures/Jen_Mom_boat.jpg" alt="Family_Picture" height="500" width="500">
+                    <figcaption>
+                        Jen loves going boating with her mom as they use the time to
+                        bond and have a fun time together. If they are not out on the boat then she 
+                        loves to get a nice glass of wine and some appetizers at a few of their favorite restaurant's.
+                        Jen loves spending time with her kids and husband watching the sunset on the beaches of the gulf 
+                        of Mexico!  
+                    </figcaption>
+                </figure>
             </div>
 
             <!--Hobby 3-->
-            <div class="hobby-card">
+            <div class="grid-item">
 
                 <!--Card Title-->
-                <h2>Hobby 3</h2> 
+                <h2 class="grid-title">Hobby 3: Water Sports</h2> 
 
-                <figure><img src="BioSite_Pictures/Jen_kayak.jpg" alt="Family_Picture"></figure>
-
-                <h3 id="hobby3-description">Description of Hobby 3</h3>
-
+                <figure>
+                    <img src="BioSite_Pictures/Jen_kayak.jpg" alt="Family_Picture" height="500" width="500">
+                    <figcaption>
+                        Jen loves spending time on the water doing things like going boating and kayaking.
+                        She will take her dog with her sometimes but will quickly realize that it was a poor
+                        choice. The Dog is not the most graceful swimmer out there. One thing that Jen likes the
+                        most about the water is the smell of the salt water and the cool breezes! 
+                    </figcaption>
+                </figure>
             </div>
         </div>
-
-        <!--To the top of the page-->
-        <p id="to-top"><a href="#header">Top of Page</a></p>
     </div>
 
     <footer>
+        <!--To the top of the page-->
+        <p id="to-top"><a href="#header">Top of Page</a></p>
+
+        <!--Jen's Social Media Links-->
         <a href="https://www.facebook.com/" target="_blank"><img id="facebook" alt="facebook" src="BioSite_Pictures/fb4.png"></a>
         <a href="https://www.instagram.com/" target="_blank"><img id="instagram" alt="instagram" src="BioSite_Pictures/ig3.png"></a>
     </footer>
+
 </body>
 </html>
