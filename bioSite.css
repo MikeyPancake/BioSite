@@ -17,7 +17,7 @@ h2{
     color: black;
 }
 
-body{
+body {
     font-family: Oswald, Verdana, Arial, sans-serif;
     background-color: #BDD9F2;
     margin: 0;
@@ -75,6 +75,12 @@ button{
     font-size: small;
     cursor: pointer;
     display:inline-block;
+}
+
+.container {
+    background-image: url("BioSite_Pictures\beach_pic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Body */
@@ -185,7 +191,7 @@ footer{
     max-width:max-content;
     font-size: 40px;
     font-weight: 200;
-    font-family: Oswald, Verdana, Arial, sans-serif;;
+    font-family: Oswald, Verdana, Arial, sans-serif;
     text-align: left;
 }
 
@@ -194,3 +200,80 @@ footer{
     height: 700px;
 }
 
+/* Home Page */
+
+.grid-container-1, .grid-container-2, .grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-column-gap: 0px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "sidebar content"
+}
+
+.grid-item-1{
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 725px;
+    grid-area: header;
+}
+
+.grid-item-2{
+    grid-area: sidebar;
+    grid-template-columns: 400px;
+}
+
+.grid-item-3 {
+    padding: 0px;
+    grid-area: content;
+}
+
+.accomplishment-para {
+    font-size: 20px;  
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+/* ----Delete this----
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-column-gap: 0px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+        "header"
+        "picture"
+        "content"
+}
+
+.grid-item-4{
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 725px;
+    grid-area: header;
+}
+
+.grid-item-5 {
+    grid-area: picture;
+    padding-left: 140px;
+    padding-right: 125px;
+}
+
+.grid-item-6 {
+    grid-area: content;
+    grid-template-columns: 600px;
+    padding-left: 75px;
+    padding-right: 50px;
+}
