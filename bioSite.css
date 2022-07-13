@@ -18,15 +18,18 @@ h2{
 }
 
 body {
+    background-image: url("BioSite_Pictures/beach2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     font-family: Oswald, Verdana, Arial, sans-serif;
-    background-color: #BDD9F2;
     margin: 0;
  }
 
  /* Header*/
 
 header{
-    background-color: #AEB9F2;
+    background-color: #1da6e6;
     color: black;
     text-align:center;
     padding-top: 5px;
@@ -40,7 +43,7 @@ header{
 }
 
 #navbar{
-    background-color: #A7BDD9;
+    background-color: #17cedb;
     overflow: hidden;
     text-align: center;
     border-color: black;
@@ -78,7 +81,7 @@ button{
 }
 
 .container {
-    background-image: url("BioSite_Pictures\beach_pic.jpg");
+    background-image: url("https://unsplash.com/photos/Ia2Kjtrx8y4");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -89,34 +92,9 @@ button{
     color: black;
     margin-top: 2%;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: bold;
     text-align: center;  
-}
-
-#image-gallery {
-    display: grid;
-    margin: 2%;
-    padding-left: 7%;
-    grid-template-columns: 900px 500px;
-    grid-template-rows: auto auto;
-}
-
-.grid-item{
-    max-width:none;
-    column-gap: 5%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-
-}
-
-.grid-title{
-    text-align: center;
-    font-size: 25px;
-    font-family: Oswald, Verdana, Arial, sans-serif;
-    font-weight: 300;
-    color: blue;
+    text-decoration: underline;
 }
 
 ol{
@@ -124,20 +102,13 @@ ol{
     color: black;
     font-size: 20px;
     font-weight: 200;
-}
-
-figure{
-    text-align: right;
-}
-
-figcaption{
-    font-size:15px;
-    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
 }
 
 img{
-    max-width: 500px;
-    height: 500px;
+    max-width: 960px;
+    height: 960px;
 }
 
 /* Footer*/
@@ -149,7 +120,7 @@ img{
 
 footer{
     text-align: center;
-    background-color: #A7BDD9;
+    background-color: #17cedb;
     border-color: black;
     border-top: 3px solid;
     border-bottom: 3px solid;
@@ -171,36 +142,50 @@ footer{
 
 /* About me Page*/
 
-#about-item-1 {
+.about-container-1 {
+    display: grid;
+    grid-template-columns: 1200px;
+    justify-content: center;
+    align-content: center;
 
 }
 
-#about-item-2 {
-
+.about-me-item-1 {
+    justify-content: center;
+    align-content: center;
+    padding-left: 120px;
+    padding-bottom: 50px;
 }
 
-#boat-pic{
-    float: left;
-    width: 400px;
-    height: 400px;
-    padding-right: 3%;
+.about-me-item-2 {
+    column-width: 1200px;
 }
 
 #bio {
+    text-indent: 75px;
     color: black;
     max-width:max-content;
     font-size: 40px;
-    font-weight: 200;
+    font-weight: 600;
     font-family: Oswald, Verdana, Arial, sans-serif;
     text-align: left;
 }
 
 #profile-picture {
-    width: 700px;
-    height: 700px;
+    width: 960px;
+    height: 960px;
+    border: 3px solid black;
 }
 
-/* Home Page */
+.profile-cap {
+    padding-right: 50px;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+/* Home Page / Hobbies Page */
 
 .grid-container-1, .grid-container-2, .grid-container-3 {
     display: grid;
@@ -217,6 +202,7 @@ footer{
 }
 
 .grid-item-1{
+    margin: 0 auto;
     align-items: center;
     justify-items: center;
     grid-template-columns: 725px;
@@ -224,56 +210,46 @@ footer{
 }
 
 .grid-item-2{
+    column-gap: 5%;
+    margin: 0 auto;
     grid-area: sidebar;
     grid-template-columns: 400px;
 }
 
 .grid-item-3 {
+    column-gap: 5%;
+    margin: 0 auto;
     padding: 0px;
     grid-area: content;
 }
 
-.accomplishment-para {
+.grid-item-4 {
+    grid-area: content;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.paragraph {
+    line-height: 50px;
+    font-weight: bold;
     font-size: 20px;  
 }
 
 .card-title {
     font-weight: bold;
     font-size: 30px;
-    color: red;
-}
-/* ----Delete this----
-
-.grid-container-3 {
-    display: grid;
-    grid-template-columns: 300px;
-    grid-column-gap: 0px;
-    padding-right: 350px;
-    padding-bottom: 20px;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: 
-        "header"
-        "picture"
-        "content"
+    color: black;
+    text-decoration: underline;
 }
 
-.grid-item-4{
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: 725px;
-    grid-area: header;
+.picture{
+    max-width: 500px;
+    max-height: 500px;
+    border: 3px solid black;
 }
 
-.grid-item-5 {
-    grid-area: picture;
-    padding-left: 140px;
-    padding-right: 125px;
-}
-
-.grid-item-6 {
-    grid-area: content;
-    grid-template-columns: 600px;
-    padding-left: 75px;
-    padding-right: 50px;
+.caption{
+    font-weight: bold;
+    font-size:15px;
+    text-align: center;
 }
