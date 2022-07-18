@@ -18,7 +18,7 @@ h2{
 }
 
 body {
-    background-image: url("BioSite_Pictures/beach2.jpg");
+    background-color: #9ec9dd;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -34,7 +34,7 @@ body {
  }
  
 header{
-    background-color: #1da6e6;
+    background-color: #0ba6ee;
     size: 10px;
     color: black;
     text-align:center;
@@ -42,7 +42,7 @@ header{
 }
 
 #navbar{
-    background-color: #17cedb;
+    background-color: #449aa0;
     overflow: hidden;
     text-align: center;
     border-color: black;
@@ -99,9 +99,8 @@ button{
 ol{
     text-align: left;
     color: black;
-    font-size: 20px;
-    font-weight: 200;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 300px;
     line-height: 50px;
 }
 
@@ -119,7 +118,7 @@ img{
 
 footer{
     text-align: center;
-    background-color: #17cedb;
+    background-color: #449aa0;
     border-color: black;
     border-top: 3px solid;
     border-bottom: 3px solid;
@@ -143,43 +142,42 @@ footer{
 
 .about-container-1 {
     display: grid;
-    grid-template-columns: 1200px;
+    grid-template-columns: 1000px;
     justify-content: center;
     align-content: center;
 
 }
 
 .about-me-item-1 {
-    justify-content: center;
-    align-content: center;
-    padding-left: 120px;
+    margin-left: 250px;  
     padding-bottom: 50px;
 }
 
 .about-me-item-2 {
-    column-width: 1200px;
+    column-width: 1000px;
 }
 
 #bio {
     text-indent: 75px;
     color: black;
     max-width:max-content;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 300;
     font-family: Oswald, Verdana, Arial, sans-serif;
     text-align: left;
 }
 
 #profile-picture {
-    width: 960px;
-    height: 960px;
+    width: 500px;
+    height: 500px;
     border: 3px solid black;
+    align-content: center;
 }
 
 .profile-cap {
     font-weight: bold;
-    padding-right: 50px;
-    font-size: 50px;
+    padding-right: 250px;
+    font-size: 25px;
     text-align: center;
     color: black;
 }
@@ -230,8 +228,8 @@ footer{
 
 .paragraph {
     line-height: 50px;
-    font-weight: bold;
-    font-size: 20px;  
+    font-weight: 300px;
+    font-size: 25px;  
 }
 
 .card-title {
