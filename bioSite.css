@@ -145,7 +145,6 @@ footer{
     grid-template-columns: 1000px;
     justify-content: center;
     align-content: center;
-
 }
 
 .about-me-item-1 {
@@ -183,7 +182,6 @@ footer{
 }
 
 /* Home Page / Hobbies Page */
-
 .grid-container-1, .grid-container-2, .grid-container-3 {
     display: grid;
     grid-template-columns: repeat(2, 500px);
